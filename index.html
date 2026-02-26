@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+    <a href="index.html">Inicio</a>
+    <a href="pagina1.html">Ofertas</a>
+    <a href="pagina2.html">Tecnología</a>
+    <a href="pagina3.html">Contacto</a>
+</nav>
+
+<h1>Productos Disponibles</h1>
+
+<div class="filtros"></div>
+<label for="min">Precio mínimo</label>
+<input type="number" id="min" placeholder="0">
+
+<label for="max">Precio máximo</label>
+<input type="number" id="max" placeholder="10000"> 
+
+<button id="btnBuscar">Buscar</button>
+</div>
+
+<h2>Resultados:</h2>
+<ul id="resultados"></ul>
+
+
+<ul id="productos">
+<li data-precio="150">Mouse Gamer - $150</li>
+<li data-precio="500">Teclado Mecánico - $500</li>
+<li data-precio="1200">Monitor 24"- $1200</li>
+<li data-precio="3000">Laptop - $3000</li>
+<li data-precio="25">Funda de celular - $25</li>
+<li data-precio="12500">Monitor 27" - $12500</li>
+<li data-precio="5500">Tablet - $5500</li>
+<li data-precio="2300">Tarjeta de video - $2300</li>
+<li data-precio="200">Cargador - $200</li>
+<li data-precio="350">Audífonos - $350</li>
+<li data-precio="800">Cámara - $800</li>
+<li data-precio="4660">Notebook - $4660</li>
+<li data-precio="1300">Router - $1300</li>
+<li data-precio="220">Cable HDMI - $220</li>
+<li data-precio="580">Disco Duro - $580</li>
+<li data-precio="1950">Impresora - $1950</li>
+<li data-precio="1000">Parlante - $1000</li>
+<li data-precio="85">Mouse Inalámbrico - $85</li>
+<li data-precio="1580">Proyector - $1580</li>
+<li data-precio="79">Playera - $79</li>
+<li data-precio="7620">Smartphone - $7620</li>
+<li data-precio="25000">Consola de videojuegos - $25000</li>
+<li data-precio="10">Chicle - $10</li>
+<li data-precio="500">Memoria RAM - $500</li>
+<li data-precio="230">Llavero - $230</li>
+</ul>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
